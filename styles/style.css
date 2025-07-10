@@ -1,0 +1,181 @@
+.plus-jakarta-sans-normal {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+
+
+
+/* shere styles */
+.btn {
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: white;
+    width: 132px;
+    height: 48px;
+    padding: 30px px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover, .btn1:hover {
+  background-color: #0000cc;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 255, 0.199);
+}
+.btn1{
+     background-color: #4E47FF;
+     border-radius: 10px;
+     color: white;
+     padding: 20px ;
+     width:200px ;
+     cursor: pointer;
+}
+
+/* header section */
+
+header {
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    width: auto;
+    height: 698px;
+    margin-top: 80px;
+
+}
+
+.banner-primary {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 80px;
+}
+
+.banner-primary h1 {
+    color: #4E47FF;
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
+
+.banner-article{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.banner-article h1{
+    font-size: 50px;
+
+}
+
+/* main-action section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    
+}
+.left-side h2{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.left-side p{
+    font-size: 24px;
+    color: #25243260;
+}
+
+.right-side img{
+    width: 400px;
+    height: 328px;
+    margin-top: none;
+    border-radius: 48px;
+}
+
+/* main-productive-users */
+
+.productive-users{
+    margin: 100px;
+    text-align: center;
+    background-color: rgba(255, 228, 196, 0.315);
+    padding: 80px;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    color:#4E47FF ;
+    font-size: 70px;
+    gap: 100px;
+    
+
+}
+.title1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.pp{
+    color: #0000009d;
+    font-size:50px; 
+}
+
+/* main-users feedback */
+.users-feedback{
+    text-align: center;
+}
+.title2 h2{
+    color:#252432 ;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+    margin-top: 50px;
+    
+}
+.card{
+    border-radius: 14px;
+    width: 366px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0,0, 0.1);
+    flex-direction: column;
+    justify-content: space-between;
+}
+.star {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.quote{
+    color: #1E1E1E;
+    margin-bottom: 20PX;
+}
+.reviewer {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: auto;
+}
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+/* main-get-start */
+.get-start{
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) ;
+}
+
+
