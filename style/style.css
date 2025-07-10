@@ -97,7 +97,7 @@ header {
 
 .left-side p {
     font-size: 24px;
-    color: #25243260;
+    color: #8987a1;
 }
 
 .right-side img {
@@ -183,7 +183,7 @@ header {
 }
 
 .quote {
-    color: #1E1E1E;
+    color: #8987a1;
     margin-bottom: 20PX;
 }
 
@@ -208,6 +208,8 @@ header {
     margin: 100px;
     padding: 70px;
     width: auto;
+    justify-content: center;
+    
 }
 
 .get-start img {
@@ -219,10 +221,13 @@ header {
     font-size: 50px;
     font-weight: bold;
     margin-top: 71px;
+    margin-top: 0px;
+
 }
 
+
 .get-start p {
-    color: #00000048;
+    color: #8987a1;
     margin-bottom: 20px;
     margin-top: 20px;
 }
