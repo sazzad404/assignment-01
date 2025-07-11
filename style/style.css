@@ -17,11 +17,11 @@
     padding: 30px;
     text-align: center;
     cursor: pointer;
+    border: none;
 }
 
 .btn:hover,
-.btn1:hover
- {
+.btn1:hover {
     background-color: #0000cc;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 255, 0.199);
@@ -34,6 +34,7 @@
     padding: 20px;
     width: 200px;
     cursor: pointer;
+    border: none;
 }
 
 .btn2 {
@@ -41,6 +42,7 @@
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    border: none;
 
 }
 
@@ -77,7 +79,8 @@ header {
 }
 
 .banner-article h1 {
-    font-size: 50px;;
+    font-size: 50px;
+    ;
 
 }
 
@@ -125,7 +128,7 @@ header {
     color: #4E47FF;
     font-size: 50px;
     gap: 100px;
-    
+
 
 
 }
@@ -139,7 +142,7 @@ header {
 .pp {
     color: #0000009d;
     font-size: 30px;
-    margin-bottom:;
+    margin-bottom: ;
 }
 
 /* main-users feedback */
@@ -209,7 +212,7 @@ header {
     padding: 70px;
     width: auto;
     justify-content: center;
-    
+
 }
 
 .get-start img {
@@ -269,12 +272,13 @@ label {
 
 }
 
-input, textarea {
+input,
+textarea {
     padding: 12px;
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 16px;
-    background-color:#f1f1f1 ;
+    background-color: #f1f1f1;
     border: 1px solid #ccc;
 }
 
@@ -282,12 +286,12 @@ input, textarea {
 /* footer */
 footer {
     text-align: center;
-     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-     padding: 100px ;
-     
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 100px;
+
 }
 
-footer h1{
+footer h1 {
     font-size: 100px;
     color: #4E47FF;
     margin-bottom: 20px;
@@ -299,7 +303,7 @@ ul {
     gap: 60px;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
@@ -309,7 +313,7 @@ ul a {
     margin-top: 20px;
 }
 
-footer p{
-margin-bottom: 20px;
-color: #8987a1;
+footer p {
+    margin-bottom: 20px;
+    color: #8987a1;
 }
